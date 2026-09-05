@@ -30,6 +30,21 @@ CTF/
 │       ├── 15-admin-command-execution.png
 │       └── 16-flag.png
 │
+├── Injectics/
+│   ├── README.md
+│   └── screenshots/
+│       ├── 01-nmap-service-enumeration.png
+│       ├── 02-source-code-mail-log-comment.png
+│       ├── 03-mail-log-credential-disclosure.png
+│       ├── 04-dashboard-after-sqli.png
+│       ├── 05-sqli-drop-users-table.png
+│       ├── 06-injectics-service-table-recovery.png
+│       ├── 07-gobuster-web-enumeration.png
+│       ├── 08-admin-dashboard.png
+│       ├── 09-profile-ssti-confirmation.png
+│       ├── 10-ssti-command-execution.png
+│       └── 11-final-flag.png
+│
 └── sqlmap-challenge/
     ├── README.md
     └── screenshots/
@@ -48,6 +63,7 @@ CTF/
 | Challenge / Room | Category | Core Vulnerability | Primary Tools | Writeup |
 | :--- | :--- | :--- | :--- | :--- |
 | **Hammer** | Web Application Security / Authentication | Rate-Limit Bypass (`X-Forwarded-For`), Password Reset Flaw, JWT Secret Exposure & Role Manipulation, RCE | Nmap, FFUF, Burp Suite, Python, JWT.io | [View Writeup](Hammer/README.md) |
+| **Injectics** | Web Application Pentesting / Injection Attacks | Info Disclosure (`mail.log`), SQLi Auth Bypass, Database Manipulation, SSTI to RCE | Nmap, Gobuster, Burp Suite, Python, Netcat | [View Writeup](Injectics/README.md) |
 | **SQLMap Challenge** | Web Security / CTF | SQL Injection (`view.php?id=1`) | Gobuster, Burp Suite, SQLMap | [View Writeup](sqlmap-challenge/README.md) |
 
 ---
